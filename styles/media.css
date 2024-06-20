@@ -1,0 +1,246 @@
+@media(max-width:1030px){ /* Ipad Pro*/
+    
+  .footer-bottom {
+      margin-top: 24%;
+      font-size: 0.8rem;
+  }
+  .main_box .btn_one i{
+      font-size:3rem;
+      top: 1%;
+  }
+  .textt{
+      font-size: 1.2rem;
+  }
+  .headerr{
+      font-size: 2rem;
+  }
+  .footer-bottom p{
+      font-size: 1.2rem;
+  }
+}
+@media(max-width:768px){ /* Ipad*/
+  .flex-project-obj{
+      display: block;
+     
+    }
+    .textt{
+      font-size: 1.1rem;
+  }
+  .headerr{
+      font-size: 1.4rem;
+  }
+    .boxd{
+      width: auto;
+   
+    }
+    .flex-textts{
+        width: 100%;
+        text-align: justify;
+    }
+  .team-page-content {
+      margin-left: 15vw;
+      margin-right: 15vw;
+      margin-top: 5%;
+      text-align: left;
+    }
+  .footer-bottom {
+      margin-top: 12.5%;
+      font-size: 0.9rem;
+  }
+  .footer-bottom p{
+      font-size: 1rem;
+  }
+  .main_box .btn_one i{
+      font-size:2.5rem;
+      top: 1%;
+  }
+  @media (prefers-color-scheme: dark){
+      .main_box .sidebar_menu {
+          background: rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 0px 6px rgba(51,51,51, 0.8);
+      }
+  }
+  @media (prefers-color-scheme: light){
+      .main_box .sidebar_menu {
+          background: rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 0px 6px rgba(51,51,51, 0.8);
+      }
+  }
+}
+@media(max-width:420px){ /* Iphone 6-7-8 plus */
+  .footer-bottom {
+      margin-top: 12.5%;
+      font-size: 0.6rem;
+  }
+  .main_box .btn_one i{
+      font: size 1.5rem;
+      top: 1%;
+  }
+  
+}
+@media(max-width:385px){
+  .main_box .btn_one i{
+      font-size:1.5rem;
+      top: 1%;
+  }
+  .textt{
+      font-size: 0.8rem;
+  }
+  .headerr{
+      font-size: 0.7rem;
+  }
+}
+@media(max-width:325px){
+  .footer-bottom p{
+      font-size: 0.6rem;
+  }
+
+.footer-bottom {
+    margin-top: 10%;
+    font-size: 0.8rem;
+}
+.footer-content{
+  margin: 1%;
+}
+.footer-content h3{
+  font-size: 2.5rem;
+  padding: 2%;
+}
+.footer-content p{
+  font-size: 1.3rem;
+  line-height: 3rem;
+  max-width: 60%;
+}
+.main_box .btn_one i{
+    font-size:3rem;
+    top: 1%;
+}
+.hero-body{
+    font-size: 1.4rem;
+}
+.hero-title{
+    font-size: 4rem;
+}
+.footer-bottom p{
+    font-size: 1rem;
+}
+.socials a i{
+  font-size: 1.6rem;
+}
+}
+@media(max-width:768px){
+.footer-bottom {
+  margin-top: 10%;
+  font-size: 0.8rem;
+}
+.footer-content{
+margin: 0;
+}
+.footer-content h3{
+font-size: 2.2rem;
+padding: 2%;
+}
+.footer-content p{
+font-size: 1.1rem;
+line-height: 2.7rem;
+max-width: 70%;
+}
+.main_box .btn_one i{
+  font-size:3rem;
+  top: 1%;
+}
+.hero-body{
+  font-size: 1.4rem;
+}
+.hero-title{
+  font-size: 4rem;
+}
+.socials a i{
+font-size: 1.4rem;
+}
+.footer-bottom {
+    margin-top: 12.5%;
+    font-size: 0.9rem;
+}
+.footer-bottom p{
+    font-size: 0.8rem;
+}
+.main_box .btn_one i{
+    font-size:2.5rem;
+    top: 1%;
+}
+@media (prefers-color-scheme: dark){
+    .main_box .sidebar_menu {
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0px 0px 6px rgba(51,51,51, 0.8);
+    }
+}
+@media (prefers-color-scheme: light){
+    .main_box .sidebar_menu {
+      background: rgba(0, 0, 0, 0.8);
+      box-shadow: 0px 0px 6px rgba(51,51,51, 0.8);
+    }
+}
+}
+@media(max-width:420px){
+.footer-bottom {
+    margin-top: 12.5%;
+    font-size: 0.6rem;
+}
+.main_box .btn_one i{
+    font-size:1.5rem;
+    top: 1%;
+}
+.footer-bottom {
+  margin-top: 10%;
+  font-size: 0.8rem;
+}
+.footer-content{
+margin: 1%;
+}
+.footer-content h3{
+font-size: 2rem;
+padding: 2%;
+}
+.footer-content p{
+font-size: 0.8rem;
+line-height: 2.1rem;
+max-width:80%;
+}
+.main_box .btn_one i{
+  font-size:2rem;
+  top: 1%;
+}
+.hero-body{
+  font-size: 1rem;
+  margin: 2%;
+}
+.hero-title{
+  font-size: 2rem;
+}
+.footer-bottom p{
+  font-size: 0.7rem;
+}
+.socials a i{
+font-size: 1rem;
+}
+}
+@media(max-width:385px){
+.main_box .btn_one i{
+    font-size:1.75rem;
+    top: 1%;
+}
+.textt{
+    font-size: 0.8rem;
+}
+.headerr{
+    font-size: 0.7rem;
+}
+}
+@media(max-width:325px){
+.footer-bottom p{
+    font-size: 0.6rem;
+}
+}
+
+

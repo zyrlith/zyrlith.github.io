@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+::selection {
+  background: #fdd8bf; /* WebKit/Blink Browsers */
+  color: black;
+}
+@font-face {
+  font-family: "Metropolis";
+
+  src: url("../assets/fonts/metropolis/Metropolis-Light.otf") format("opentype"); /* Safari, Android, iOS */
+}
+
+.hero {
+  background-image: url("../assets/images/adasdas.jpg");
+}
+
+.main-hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero-img-obj {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: auto;
+  background-position: center;
+  
+  
+}
+
+.hero-texts {
+  display: block;
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: auto;
+  width: 100vw;
+  color: white;
+}
+.hero-title {
+  font-family: "Metropolis", sans-serif;
+  font-size: 5rem;
+}
+
+.hero-body {
+  font-size: 1.75rem;
+ /* margin-top: 1.5rem;*/
+  opacity: 0.8;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+}
+.hero-body:before {
+  content: "";
+ /* animation: animate infinite 27s;*/
+  /*transition: all 0.3s ease;*/
+}
+@keyframes animate {
+  0% {
+    content: "Zyrlith Kulübü, Şehit Batuhan Ergin Anadolu Anadolu Lisesi’nde kurulan inovatif bir okul kulübüdür.";
+    opacity: 1;
+  }
+  5%{
+    opacity: 1;
+  }
+  10%{
+    opacity: 0;
+  }
+  20% {
+    content: "Zyrlith Kulübü, Şehit Batuhan Ergin Anadolu Lisesi’nde kurulan inovatif bir okul kulübüdür.";
+    opacity: 1;
+  }
+  25%{
+    opacity: 1;
+  }
+  30%{
+    opacity: 0;
+    content: "Zyrlith Kulübü, Şehit Batuhan Ergin Anadolu Lisesi’nde kurulan inovatif bir okul kulübüdür.";
+  }
+  40% {
+    content: "İnsanı temel alan, yaşamı iyileştiren projelerle know-how kazanırken sosyal fayda sağlıyoruz.";
+    opacity: 1;
+  }
+  45%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  60% {
+    content: "Yaşamı iyileştirecek faydalı inovasyonları bilimin ışığında geliştirmeyi amaçlıyoruz.";
+  }
+  80% {
+    content: "Amacımız, geleceğin teknolojilerini değişen dünya için hep birlikte üretmek.";
+  }
+  100% {
+    content: "Teknoloji ve vicdanı bir araya getiren bu anlayışla ortak değerlere katkı sağlıyoruz.";
+  }
+}
+@media (prefers-color-scheme: dark){
+  .footer-bottom {
+    background: rgb(0,0,0);
+  } 
+  .footer-bottom span {
+    color: #fff;
+  }
+  .footer-bottom p{
+  color: white;
+  }
+  .span-link{
+    color: white;
+  }
+  footer{
+  position: relative;
+  background:#111;
+  height: auto;
+  width: 100vw;
+  font-family: "Metropolis", sans-serif;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 3%;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 40%;
+  font-size: 1;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 2rem;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem;
+}
+.socials li{
+  margin: 15%;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.2rem;
+  opacity: 0.6;
+  transition: all 0.2s linear;
+}
+.socials i:hover{
+  opacity: 1;
+  font-size: 1.2rem;
+}
+.footer-bottom{
+  background: #000000;
+  width: 100%;
+  padding: 20px 0 ;
+  text-align: center; 
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: capitalize;
+  opacity: .4;
+  font-weight: 200;
+}
+}
+@media (prefers-color-scheme: light){
+  footer{
+    position: relative;
+    background:#fff;
+    height: auto;
+    width: 100vw;
+    font-family: "Metropolis", sans-serif;
+    padding-top: 40px;
+    color: #fff;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3%;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #111;
+  }
+  .footer-content p{
+    max-width: 40%;
+    font-size: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2rem;
+    color: #111;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+  }
+  .socials li{
+    margin: 15%;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .socials a i{
+    font-size: 1.2rem;
+    opacity: 0.6;
+    transition: all 0.2s linear;
+    color: #111;
+  }
+  .socials i:hover{
+    opacity: 1;
+  }
+  .footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0 ;
+    text-align: center; 
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom span{
+    text-transform: capitalize;
+    opacity: .4;
+    font-weight: 200;
+  }
+}

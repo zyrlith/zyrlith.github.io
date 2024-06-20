@@ -1,2 +1,2 @@
 # zyrlith.github.io
-archive website
+archive github pages website/update
